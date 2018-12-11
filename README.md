@@ -1,2 +1,2 @@
 # AVX_Vector_Computation_Performance_Measurment
-Tested AVX's enhanced performance over normal computation using vector addition and multiplication over normal addition and multiplication utilizing different setup of instructions
+As the demand of computation requirements are increasing day by day, adding vector operations to each core are essential. Intel's latest AVX instruction set provides the capability to use 16 register where each can contain up to 256 bits of data. I tested its enhanced performance over normal computation by comparing vector addition, multiplication and normal addition, multiplication utilizing different setup of instructions. After experiment I found AVX about 4 times more performant. I used C++ to model and implement this experiment. 
